@@ -1,0 +1,44 @@
+.backimg{
+	 position: fixed;
+    background-image: url("nsbm.jpg");
+    height: 92.5%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#faclms{
+	color: white;
+	font-size:35pt;
+	text-align: center;
+	font-style: italic;
+	padding-top: 100px;
+}
+
+#logout{
+	width: 5%;
+	height: 20px;
+	color: F38131;
+	float: right;
+	padding: 0 0px;
+}
+.schools{
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18pt;
+    font-style: italic;
+    text-decoration: none;
+}
+#logout a{
+	color: white;
+	font-weight: bold;
+	padding: 0pt;
+	margin: 0pt;
+	text-align: center;
+}
+
+
