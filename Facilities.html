@@ -6,9 +6,11 @@
 <meta name="description" content="learning menagment system for nsbm">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+  <link rel="stylesheet" type="text/css" href="facilitiesstyle.css">
 </head>
 <body>
 <header>
+<!-- navigartoin bar -->
 		<div class="nav">
 			<ul>
   				<li><a href="index.html">HOME</a></li>
@@ -23,6 +25,50 @@
 
 		</div>
 </header>
+<!-- picture -->
   <div class="FPIC"></div>
+  <!-- page content -->
+  <div class="faccontent">
+    <p>NSBM’s objective of opening a fully-fledged university complex is to gift fully rounded individuals to the whole world. This green university town comprises ultra-modern facilities for both staff and undergraduates.</p>
+
+    <p>The university is equipped with all relevant amenities including highly sophisticated lecture halls, laboratories and library. The students at the university have access to one of the biggest libraries in the country. A large collection of books is available here and students can gain access to so many e-libraries around the world.</p>
+
+    <p>The student center and study points available at the university create an appropriate environment for learning and research. The state-of-the-art auditorium and the open theatre help to create individuals with creativity. The recreation center offers a large variety of activities and recreational pursuits. The sports ground, gymnasium and swimming pool enables the making of well-rounded healthy individuals. Medical center is equipped with many facilities ensuring that the students and the staff get the best service. Students’ hostels are constructed with a -modern touch to them to make the environment study-friendly and relaxing for the students. Apartments allocated to staff is of world-class status making the university a fully-fledged working environment. Both students’ accommodation and staff accommodation were set up with the aim of providing not only physical comfort but also psychological comfort which will make teaching-learning process easier. The university also comprises of several cafeterias and a supermarket. A branch of Bank of Ceylon is also located inside the university and all those facilities make this green university a comprehensive University Township.</p>
+
+  </div>
+  
+  <div class="gallery">
+    <img class="mySlides" src="img_a-lecture-hall.jpg"style="width:100%">
+    <img class="mySlides" src="img_auditorium.jpg" style="width:100%">
+    <img class="mySlides" src="img_gym.jpg" style="width:100%">
+    <img class="mySlides" src="img_library.jpg" style="width:100%">
+    <img class="mySlides" src="img_open-air-theatre.jpg" style="width:100%">
+    <img class="mySlides" src="img_sports-grounds.jpg" style="width:100%">
+    <img class="mySlides" src="img_student-centre.jpg" style="width:100%">
+    <img class="mySlides" src="img_swimming-pool.jpg" style="width:100%">
+
+  <button class="gallery-button gallery-black gallery-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="gallery-button gallery-black gallery-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 </body>
 </html>
