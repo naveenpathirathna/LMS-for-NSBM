@@ -13,10 +13,12 @@
 	margin-top: -8px;
 	margin-left: 100px;
 	margin-bottom: 50px;
-	background-color: gray;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 10;
 	text-decoration: none;
 	float: left;
+}
+body{
+	background-color: black;
 }
