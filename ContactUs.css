@@ -1,0 +1,22 @@
+.ContUs{
+    background-image: url('contactus.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.soc{
+	width: 15%;
+	height: 300px;
+	margin-top: -8px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	background-color: gray;
+	color: black;
+	font-weight: bold;
+	font-size: 10;
+	text-decoration: none;
+	float: left;
+}
