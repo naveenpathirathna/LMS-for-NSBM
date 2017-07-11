@@ -1,0 +1,42 @@
+#welcome2{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    font-family:  "Times New Roman", Times, serif;
+    font-size:40px;
+}
+.img{
+	 position: fixed;
+    background-image: url("nsbm.jpg");
+    height: 92.5%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.subjects{
+	 width: 86%;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    float: left;
+    background-image: url('nsbm.jpg');
+    background-size: cover;
+
+}
+.subjects ul li a{
+	font-family: arila;
+	font-size: 14pt;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	
+}
+.subjects ul li{
+	list-style: none;
+}
