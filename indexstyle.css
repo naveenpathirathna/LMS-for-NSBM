@@ -10,21 +10,23 @@ body{
 	left: 0;
 	right: 0;
 	top: 0;
+	float: left;
 
 }
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    opacity: .8;
 }
 
-li {
+.nav ul li {
     float: left;
 }
 
-li a {
+.nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -33,10 +35,10 @@ li a {
     text-transform: uppercase;
 }
 
-li a:hover {
+.nav ul li a:hover {
     background-color: #4CAF50;
 }
-li a.active {
+.nav ul li a.active {
     background-color: #4CAF50;
     color: white;
 }
@@ -63,13 +65,35 @@ hr{
     color: black;
 
 }
-
+.login{
+    color:white;
+    text-align: center;
+    vertical-align: center;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 28px;
+}
 .thought{
     color: white;
     text-align: center;
     vertical-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
+}
+button{
+    padding: 15px 40px;
+    margin: 8px 0;
+    display: block;
+    margin:  2em 625px auto;
+    border-radius: 4px;
+    border: none;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight: bold;
+}
+button:hover {
+    background-color: black;
 }
 
 
@@ -93,101 +117,39 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-button{
-    padding: 15px 40px;
-    margin: 8px 0;
-    display: block;
-    margin:  2em 612px auto;
-    border-radius: 4px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
+.back{
+	height: 50px;
+	width: 10%;
+	float: right;
+	background-color: red;
 }
-button:hover {
-    opacity: 0.8;
-}
-.close {
-    position: absolute;
-    right: 25px;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
+#logo{
+	width: 15%;
+	height: 588px;
+	
     float: left;
+
     
+
 }
 
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
+.contentt{
+	width: 85%;
+	height: 588px;
+	
+    float: left;
 }
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
+
+.backimg{
+     position: fixed;
+  
+    height: 588px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
     left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);
-    padding-top: 60px;
-}
+    bottom: 0;
+}   
 
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto;
-    border: 1px solid #888;
-    width: 50%;
-    position: relative;
-}
-
-.container {
-    padding: 50px 10px;
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-    display: block;
-    float: none;
-}
-
-.screen.span.psw {
-    display: block;
-    float: none;
-}
-.cancelbtn {
-    width: 50%;
-}
-
-.cancelbtn {
-    position: absolute;
-    width:  80px;
-    padding: 15px 20px;
-    background-color: #f44336;
-    margin-left: 550px;
-   
-}
-input[type=text], input[type=password] {
-    width: 75%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-
-}
-.log{
-    width: 85px;
-    padding: 15px 20px;
-    margin-left: 450px;
-    position: absolute;
-}
-.tharu{
-    color:#52527a;
-    font-size: 20px;
-}
