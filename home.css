@@ -14,12 +14,16 @@
 h1{
     text-align:center;
     color: greenyellow;
-    background-color: rgba(0,0,0,0.6);
+    margin: 0;
+    padding-top: 22px;
+    font-size: 30pt;
 }
 
 .con{
     width: 100%;
-    margin-left: 70px;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .computing{
@@ -28,13 +32,40 @@ h1{
     cursor: pointer;
     font-size: 20px;
     line-height: 35px;
-    width: 400px;
-    float: left;
-    height: 900px;
-}
-
-.computing ul{
+    width: 325px;
     background-color: rgba(0,0,0,0.6);
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 100px;
+    float: left;
+    
+}
+.school{
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    font-size: 20px;
+    float: left;
+    width: 835px;
+    background-color: rgba(0,0,0,0.6);
+    height: 220px;
+    margin-top: 40px;
+    margin-left: 20px
+}
+.school2{
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    font-size: 20px;
+    float: left;
+    width: 835px;
+    background-color: rgba(0,0,0,0.6);
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.computing ul{
+    
     padding: 10px;
     margin-left: 40px;
     text-align: center;
@@ -50,7 +81,8 @@ h1{
 }
 
 .computing ul li a{
-    color: white;
+    color: white;text-align: center;
+    
     text-decoration: none;
 }
 
@@ -62,4 +94,18 @@ h1{
 .computing ul li a:hover{
     color: black;
     font-weight: bold;
+}
+.aa{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 30pt;
+    padding-left: 200px;
+    
+}
+.aa:hover{
+    font-size: 35pt;
+    font-weight: bold;
+    font
+    
 }
