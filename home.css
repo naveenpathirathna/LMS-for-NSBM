@@ -1,0 +1,65 @@
+.img{
+     position: fixed;
+    background-image: url("../JPG/NSBM.jpg");
+    height: 92.5%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+}
+
+h1{
+    text-align:center;
+    color: greenyellow;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.con{
+    width: 100%;
+    margin-left: 70px;
+}
+
+.computing{
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 35px;
+    width: 400px;
+    float: left;
+    height: 900px;
+}
+
+.computing ul{
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.computing ul li{
+    list-style: none;
+    line-height: 35px;
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding: 10px;
+}
+
+.computing ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.computing ul li:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.computing ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
