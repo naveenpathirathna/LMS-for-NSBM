@@ -30,36 +30,36 @@
          <div class="computing">
              <ul>Year 1
              <li><a href="DBMS.php">Database Management System</a></li>
-             <li><a href="">OOP with Java</a></li>
-             <li><a href="">Programming with C</a></li>
-             <li><a href="">Web Development</a></li>
+             <li><a href="java.php">OOP with Java</a></li>
+             <li><a href="c.php">Programming with C</a></li>
+             <li><a href="web.php">Web Development</a></li>
         </ul>
       </div>
         
              <div class="computing">
              <ul>Year 2
-             <li><a href="">System Analysis and Design</a></li>
-             <li><a href="">Computer Networks</a></li>
-             <li><a href="">Operating Systems</a></li>
-             <li><a href="">Mathematics</a></li>
+             <li><a href="#">System Analysis and Design</a></li>
+             <li><a href="#">Computer Networks</a></li>
+             <li><a href="#">Operating Systems</a></li>
+             <li><a href="#">Mathematics</a></li>
 
         </ul>
       </div>        
             <div class="computing">
              <ul>Year 3
-             <li><a href="">Industrial Training</a></li>
-             <li><a href="">Project Management</a></li>
-             <li><a href="">Foundation of E-Bussiness</a></li>
-             <li><a href="">Final project</a></li>
+             <li><a href="#">Industrial Training</a></li>
+             <li><a href="#">Project Management</a></li>
+             <li><a href="#">Foundation of E-Bussiness</a></li>
+             <li><a href="#">Final project</a></li>
              
         </ul>
       </div>
             <div class="computing">
              <ul>Year 4
-             <li><a href="">Information Secquirty</a></li>
-             <li><a href="">Technical Communication</a></li>
-             <li><a href="">OOP iii</a></li>
-            <li><a href="">Final project</a></li>
+             <li><a href="#">Information Secquirty</a></li>
+             <li><a href="#">Technical Communication</a></li>
+             <li><a href="#">OOP iii</a></li>
+            <li><a href="#">Final project</a></li>
              
         </ul>
       </div>
