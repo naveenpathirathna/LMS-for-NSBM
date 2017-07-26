@@ -1,0 +1,15 @@
+.clubs{
+    color:white;
+    font-family: arial;
+    font-size: 18pt;
+}
+.clubs1{
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 35px;
+    width: 325px;
+    float: left;
+    height: 1000px;
+}
