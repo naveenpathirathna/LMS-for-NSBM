@@ -1,0 +1,33 @@
+.log{
+    width: 275px;
+    height: 175px;
+    vertical-align: center;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 200px;
+    margin-left: 250px;
+    float: left;
+}
+.img{
+     position: fixed;
+    background-image: url("../JPG/NSBM.jpg");
+    height: 92.5%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.tab{
+    border: 0;
+    color: white;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#w3{
+    padding-top: 535px;
+    padding-left: 1275px;
+}
+
